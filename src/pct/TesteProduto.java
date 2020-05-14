@@ -17,6 +17,18 @@ public class TesteProduto {
         //criacao e instancia o objeto da classe prouto
         Produto p = new Produto();
         
+        //construindo nosso objeto
+        p.codigo=10;
+        p.descricao="Whisky Johnnie Walker, um Blend Scotch rico e incorporado. Tem uma seleção inigualável de mais de 35 maltes na sua composição que garantem a sua superioridade.";
+        p.setor='M';
+        p.preco=120.00;
+        p.disponivel=true;
+        
+        //teste do metodo para imprimir o produto
+        System.out.println("\n\t\t\t PRODUTO \n");
+        p.imprimirProduto();
+        
+        
         
     }
 }
