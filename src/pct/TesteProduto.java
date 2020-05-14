@@ -19,7 +19,7 @@ public class TesteProduto {
         
         //construindo nosso objeto
         p.codigo=10;
-        p.descricao="Whisky Johnnie Walker, um Blend Scotch rico e incorporado. Tem uma seleção inigualável de mais de 35 maltes na sua composição que garantem a sua superioridade.";
+        p.descricao="Whisky Johnnie Walker, um Blend Scotch rico e incorporado \n. Tem uma seleção inigualável de mais de 35 maltes na sua composição que garantem a sua superioridade.";
         p.setor='M';
         p.preco=120.00;
         p.disponivel=true;
