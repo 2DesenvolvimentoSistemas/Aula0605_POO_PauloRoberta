@@ -24,5 +24,13 @@ public class Produto {
         System.out.println("Preço:" + preco);
         System.out.println("Disponível:" + disponivel);
         
+        
+    }
+    public void calcularDesconto(){
+        preco = preco - (preco * 0.1);
+    }
+    public void imprimirDesconto(){
+        System.out.println("desconto de 10%:" + preco);
+        
     }
 }
