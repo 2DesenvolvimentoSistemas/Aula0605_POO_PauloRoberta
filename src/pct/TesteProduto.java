@@ -28,6 +28,13 @@ public class TesteProduto {
         System.out.println("\n\t\t\t PRODUTO \n");
         p.imprimirProduto();
         
+        // testando o metodo calcular desconto
+        p.calcularDesconto();
+        
+        // Imprimindo o produto com desconto
+        System.out.println("\n\t\t\t -- PRODUTO COM DESCONTO --\n");
+        p.imprimirDesconto();
+        
         
         
     }
